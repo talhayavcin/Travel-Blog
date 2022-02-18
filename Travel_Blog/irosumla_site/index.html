@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+    <link
+      href="https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Irosumla Gezi Blogumuz</title>
+  </head>
+    <body>
+      <!-- Navbar-->
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top ">
+          <div class="container">
+            <a href="#" class="navbar-brand">Gezi Blogu</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+              <span class="navbar-toggler-icon"></span>
+              
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navmenu">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a href="#nav1" id="nav1" class="nav-link">Biz Kimiz ?</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#Deneme2" class="nav-link">Gezdiğimiz yerler</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#Deneme3" class="nav-link">Gezeceğimiz Yerler</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+        <!-- Showcase-->
+        <section class="bg-dark text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start">
+          <div class="container">
+            <div class="d-sm-flex align-items-center justify-content-between">
+              <div>
+                <h1>Bizimle <span class="text-warning"> Gezin!</span></h1>
+                <p class="lead"> 
+                  Bu blog İroş ve Taloşun birlikte gezdikleri ve gezmek istedikleri yerleri paylaştıkları bir blog. Burda bizimle birlikte gezdiğimiz yerleri siz de deneyimleyebilir ve fikir sahibi olabilirsiniz. 
+                </p>
+                
+              </div>
+              <img class="img-fluid w-50 d-none d-sm-block" src="img/undraw_travelers_re_y25a.svg"  alt="Dnuyayı gezen cift">
+            </div>
+          </div>
+        </section>
+
+        <!-- Boxes-->
+        <section class="p-5">
+          <div class="container">
+            <div class="row text-center g-3">
+            <div class="col-md">
+              <div class="card bg-dark text-light">
+                <div class="card-body text-center">
+                  <div class="h1 mb-3 ">
+                    <i class="bi bi-brightness-high"></i>
+                  </div>
+                  <h3 class="card-title mb-3">
+                    Mersin
+                  </h3>
+                  <p id="content" class="card-text">
+                    Mersin bizim ilk buluştuğumuz yer ve İroşumun memleketi olduğu için biz de yeri hep ayrı.
+                  </p>
+                  <a href="#" id="more1" class="btn btn-primary">Daha fazla...</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md">
+              <div class="card bg-secondary text-light">
+                <div class="card-body text-center">
+                  <div class="h1 mb-3 ">
+                    <i class="bi bi-emoji-sunglasses"></i>
+                  </div>
+                  <h3 class="card-title mb-3">
+                    Ayvalık
+                  </h3>
+                  <p class="card-text">
+                    Ayvalığa tatil için gitmiştik. Çok tatlı ve güzel bir yer herkese tavsiye ederiz. Özellikle Cunda adası görülmeye değer bir yer.
+                  </p>
+                  <a href="#" class="btn btn-primary">Daha fazla...</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md">
+              <div class="card bg-dark text-light">
+                <div class="card-body text-center">
+                  <div class="h1 mb-3 ">
+                    <i class="bi bi-star"></i>
+                  </div>
+                  <h3 class="card-title mb-3">
+                    Olimpos
+                  </h3>
+                  <p class="card-text">
+                    Olimpos bu yaz gitmek istediğimiz bir yer. Orda geceleri yıldızları izlemek beraber kamp yapabilmek hayalimiz. Bu yaz Olimposda olmayı düşünüyoruz.
+                  </p>
+                  <a href="#" class="btn btn-primary">Daha fazla...</a>
+                </div>
+              </div>
+            </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Learn Sections-->
+        <section id="learn" class="p5 ">
+          <div class="container">
+            <div class="row align-items-center justify-content-between">
+              <div class="col-md">
+                <img src="img/undraw_eating_together_re_ux62.svg" class="img-fluid" alt="">
+              </div>
+              <div class="col-md p-5">
+                <h2>Yemek yediğimiz yerler</h2>
+                <p class="lead">
+                  Bu kısımda nerede ne yediğimizden bahsedeceğiz.
+                </p>
+                <p>Mersin : Tabiki tantuni. Bir numaralı favorimiz
+                </p>
+                <p>Ayvalık : Ayvalık tostu adından da anlaşılacağı üzere</p>
+                <a href="#" class="btn btn-light mt-3">
+                  <i class="bi bi-chevron-right"></i>  Daha fazla...
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="learn" class="p5 bg-dark text-light">
+          <div class="container">
+            <div class="row align-items-center justify-content-between">
+              <div class="col-md p-5">
+                <h2>Kaldığımız Yerler</h2>
+                <p class="lead">
+                  Bu kısımda nerede konakladığımızdan bahsedeceğiz.
+                </p>
+                <p>Mersin : O zaman ev bulamadığımız için İroşun hocasının evinde kaldık</p>
+                <p>Ayvalık : Arkadaşımızın yazlığında kaldık bizim için çok güzel bir deneyimdi.</p>
+                <p>İstanbul : Evde birlikte yaşıyoruz ama yalnız değiliz ilerde amacımız ikimizin birlikte yaşayacağı tatlı bir yuva.</p>
+                <a href="#" class="btn btn-light mt-3">
+                  <i class="bi bi-chevron-right"></i>  Daha fazla...
+                </a>
+              </div>
+              <div class="col-md">
+                <img src="img/undraw_moments_0y20.svg" class="img-fluid" alt="">
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="instructor" class="p-5 bg-primary" >
+          <div class="container">
+            <h2 class="text-center text-white">Biz Kimiz ?</h2>
+            <p class="lead text-center text-white mb-5">
+              Biz severek eğlenerek gezdiğimiz yerleri paylaşan bir çiftiz.
+            </p>
+            <div class="row g-4">
+              <div class="col md-6 col lg-3">
+                <div class="card bg-light">
+                  <div class="card-body text-center">
+                    <img src="261178518_454402669360450_329468564261097629_n.jpg" class="rounded-circle mb-3" alt=""/>
+                    <h3 class="card-title mb-3">İrem Öztürk</h3>
+                    <p class="card-text">Ben İrem Öztürk, Yıldız Teknik Üniversitesinde okuyorum. Gezmeyi ve gezdiğim yerleri kaydetmeyi çok seviyorum. Bu yüzden erkek arkadaşımla böyle bir sayfa açmak istedik. Umarım burda keyifli vakit geçirirsiniz.</p>
+                    <a href="https://twitter.com/iremozturkk7"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                    <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+                    <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col md-6 col lg-3">
+                <div class="card bg-light">
+                  <div class="card-body text-center">
+                    <img src="WhatsApp Image 2022-02-09 at 14.03.57.jpeg" class="rounded-circle mb-3" alt=""/>
+                    <h3 class="card-title mb-3">Talha Yavçın</h3>
+                    <p class="card-text">Ben Talha Yavçın, Marmara Üniversitesinde okuyorum. Ben özellikle gezerken yemeği seviyorum. O yüzden burdaki yemek yediğimiz yerlere lezzet konusunda güvenebilirsiniz.</p>
+                    <a href="https://twitter.com/talhayavcin8"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                    <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+                    <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Footer-->
+        <footer class="p-5 bg-dark text-white text-center position-relative">
+          <div class="container">
+            <p class="lead">İroşla Taloşun Blogu </p>
+
+            <a href="#" class="position-absolute bottom-0 end-0 p-5">
+              <i class="bi bi-arrow-up-circle h1">
+                
+              </i>
+            </a>
+          </div>
+        </footer>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  
+  <script> src = "main.js" </script>
+    </body>
+</html>
